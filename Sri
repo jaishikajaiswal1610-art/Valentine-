@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>For You ❤️</title>
+<style>
+body {
+  text-align: center;
+  font-family: Arial;
+  background: pink;
+  padding-top: 100px;
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 18px;
+  background: red;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+</style>
+</head>
+
+<body>
+
+<h1>Hey Sri 💗</h1>
+<p>I made something special for you 😊</p>
+
+<button onclick="showMessage()">Click here</button>
+
+<script>
+function showMessage() {
+  alert("You are really special to me ❤️");
+}
+</script>
+
+</body>
+</html>
